@@ -18,8 +18,16 @@
     
     sourceWidth="800" sourceHeight="600" displayWidth="1280" displayHeight="720">
 
+      <a-assets>
+        <img id="image" src="lb.webp">
       
-        <a-marker type='barcode' value='0'>
+      </a-assets>
+        <a-marker type='barcode' value='35'>
+
+          <a-image src="#image"
+           rotation = "270 0 0"
+           width = "2"
+           height = "2"></a-image>
    
             <a-text value="Hello !" 
             side="double" position = "0 0 -1" rotation="270 0 0" 
